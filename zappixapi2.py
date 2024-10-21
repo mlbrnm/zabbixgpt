@@ -1,10 +1,10 @@
 import requests
 import json
 import datetime
-import config
+import credentials
 
-ZABBIXURL = config.ZABBIXURL
-ZABBIXTOKEN = config.ZABBIXTOKEN
+ZABBIXURL = credentials.ZABBIXURL
+ZABBIXTOKEN = credentials.ZABBIXTOKEN
 
 ZABBIX_SEVERITIES = {
     0: "Not classified",
